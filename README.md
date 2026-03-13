@@ -278,14 +278,14 @@ No manual intervention needed — the pipeline resumes automatically after waiti
 ## 🔮 Future Improvements
 
 | Improvement |
-|---|---|
-| GitHub Push Agent — auto-commit and push generated code | 
-| Automated UAT Agent — Playwright agent tests the running app | 
-| LangGraph Checkpointing — resume interrupted runs from last node | 
-| Multi-file Generation — separate files per task, merge before QA | 
-| Human Review at Architecture stage — approve schema before Dev runs | 
+|---|
+| GitHub Push Agent — auto-commit and push generated code |
+| Automated UAT Agent — Playwright agent tests the running app |
+| LangGraph Checkpointing — resume interrupted runs from last node |
+| Multi-file Generation — separate files per task, merge before QA |
+| Human Review at Architecture stage — approve schema before Dev runs |
 | Smart Token Management — auto-switch to 8B model near daily limit |
-| Auto requirements.txt — scan generated app.py for imports | 
+| Auto requirements.txt — scan generated app.py for imports |
 
 ---
 
