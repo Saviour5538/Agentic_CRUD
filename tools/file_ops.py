@@ -1,6 +1,10 @@
+from typing import List
 import os
 
-WORKSPACE_DIR = "generated_workspace"
+# Always resolve paths relative to this file's location
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+WORKSPACE_DIR = os.path.join(BASE_DIR, "generated_workspace")
+
 
 def write_file(filename: str, content: str) -> str:
     os.makedirs(WORKSPACE_DIR, exist_ok=True)
