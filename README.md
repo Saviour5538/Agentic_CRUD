@@ -277,7 +277,7 @@ No manual intervention needed — the pipeline resumes automatically after waiti
 
 ## 🔮 Future Improvements
 
-| Improvement | Priority |
+| Improvement |
 |---|---|
 | GitHub Push Agent — auto-commit and push generated code | 
 | Automated UAT Agent — Playwright agent tests the running app | 
